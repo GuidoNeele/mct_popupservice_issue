@@ -9,5 +9,7 @@
         <Label HorizontalOptions="Center"
                Text="{Binding Text}"
                VerticalOptions="Center" />
+        <Button Clicked="HandleButtonClicked"
+                Text="Show Popup" />
     </VerticalStackLayout>
 </toolkit:Popup>

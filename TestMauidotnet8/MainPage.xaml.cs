@@ -24,12 +24,7 @@ namespace TestMauidotnet8
 
             SemanticScreenReader.Announce(CounterBtn.Text);
 
-            MyViewModel vm = new()
-            {
-                Text = "My modified text"
-            };
-
-            popupService.ShowPopup(vm);
+            popupService.ShowPopup<MyViewModel>();
         }
     }
 
